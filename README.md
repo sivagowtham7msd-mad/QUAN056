@@ -1,32 +1,35 @@
-Quantum-Enhanced Adaptive Urban Traffic
-Optimization 
-Problem Statement :
-Urban traffic congestion is a major challenge in growing cities. Traditional traffic signals often use
-fixed timings and cannot efficiently respond to changing traffic density, accidents, road closures, or
-emergency vehicles. Poor coordination between nearby intersections can also increase waiting time,
-fuel consumption, and carbon emissions.
-The proposed system aims to develop a Hybrid Quantum-Classical Traffic Optimization
-Platform that dynamically manages traffic signals across multiple interconnected intersections.
-The system should model traffic flow as an optimization problem and explore techniques such as
-QUBO and QAOA to determine efficient signal timings while considering vehicle density, queue
-length, road capacity, pedestrian movement, and emergency vehicle priority.
-A major feature should be an Emergency Green Corridor System that reduces ambulance or
-emergency vehicle travel time while minimizing disruption to normal traffic.
-Core Features
+Adaptive Urban Traffic – Quantum Enhanced. 
+Optimization
+
+**Problem Statement**
+
+In an increasing urban population, traffic congestion is a significant issue. Traditional traffic signals generally employ 
+has hard, unchanging schedules; can't effectively adjust to varying traffic loads, crashes, closures or 
+emergency vehicles. Another cause of excess waiting time is poor coordination between adjacent intersections, and 
+Fuel use, and carbon emissions.
+The proposed system is intended to build a Hybrid Quantum-Classical Traffic Optimization system. 
+Platform that automatically controls traffic lights at multiple cross intersections.
+The system should simulate traffic flow as an optimization problem and investigate the methods like 
+Optimize signal durations for efficient operations with vehicle density and queue, using QUBO and QAOA. 
+Length, Road Space, Pedestrian Movement, and Emergency Vehicle Priority.
+A big feature should be an Emergency Green Corridor System (EGCS) which minimizes ambulance or 
+Minimising delays to normal traffic, whilst ensuring emergency vehicle travel time.
+
+**Core Features**
 • Multi-Intersection Traffic Network
-Model approximately 4–8 connected intersections with traffic density, queue length, road capacity,
+Construct about 4-8 connected intersections in which there are intersections with traffic volume, queue length, road capacity, etc. 
 and signal status.
 • Quantum Optimization Engine
-Use QUBO/Ising formulation and QAOA or a hybrid quantum-classical approach to optimize
+The optimization is accomplished using QUBO/Ising formulation and QAOA or a hybrid quantum-classical method. 
 signal timings.
 • Adaptive Traffic Signals
-Automatically adjust green-light duration based on changing traffic conditions instead of using only
+Instead of only, automatically adjust green light duration according to changing traffic conditions. 
 fixed timings.
 • Emergency Green Corridor
-Prioritize ambulances or emergency vehicles by dynamically modifying selected traffic signals and
-restoring normal traffic afterward.
+Prioritize ambulances or emergency vehicles by dynamically changing selected traffic signals and 
+To restore traffic after that.
 • Dynamic Event Handling
-The system should respond to at least one event such as:
+The system should react to at least one event of:
 • Sudden traffic congestion
 • Accident
 • Road closure
@@ -38,38 +41,41 @@ Estimate improvements in:
 • Fuel consumption
 • CO₂ emissions
 • Classical Comparison
-Compare the hybrid quantum solution with a basic method such as fixed signal timing or rule-based
+Compare the quantum solution implemented as a hybrid approach with a simple technique like fixed signal timing, or rule-based. 
 traffic control.
 • Interactive Dashboard
 The dashboard should display:
 • Road network
 • Traffic density
-• Current and optimized signals
+Signals at the current level and optimized.
 • Emergency vehicle route
 • Queue length
 • Waiting time
-• Fuel and CO₂ estimates
-• Classical vs quantum results 
-Optimization Objectives
-The system should aim to:
+Estimates of fuel and CO₂ are provided.
+Classical vs quantum results. 
+
+**Optimization Objectives**
+The system should seek to:
 • Minimize waiting time
 • Minimize queue length
 • Reduce congestion
-• Reduce emergency travel time
-• Reduce fuel usage and emissions
+Minimize response time to emergency trips
+Minimise fuel consumption and emissions
 • Maximize traffic throughput
-Suggested Development Stack
-The project should be buildable using free tools such as:
+
+**Suggested Development Stack**
+The project should be feasible with free software, including:
 • Qiskit / Qiskit Aer
 • PennyLane
 • Python
 • NetworkX
-• SUMO or custom traffic simulation
+This is usually a SUMO or a custom traffic simulation.
 • Streamlit
 • Folium / OpenStreetMap
-Expected Outcome
-A working prototype that demonstrates how hybrid quantum-classical optimization can improve
-multi-intersection traffic flow, reduce congestion and emissions, and provide priority routing for
+
+**Expected Outcome**
+A working prototype that illustrates the improvement of QQO in a quantum-classical hybrid model. 
+increase speed and safety of multi-intersection traffic flow, ease congestion and emissions, and route priority. 
 emergency vehicles.
-The solution should clearly explain where the quantum component is used and compare its results
-with a simple classical baseline . 
+The solution should describe the location of the quantum component and the results of that should be compared. 
+The song features a simple classical baseline.The song has a simple classical baseline.
